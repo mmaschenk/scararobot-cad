@@ -1,0 +1,9 @@
+#!/bin/bash
+
+#
+# Move this file to .git/hooks/pre-commit for it to extract your document.xml file on each commit 
+# and add it to that commit
+#
+
+unzip -o 'SCARA Robot.FCStd' Document.xml -d info
+git add info
