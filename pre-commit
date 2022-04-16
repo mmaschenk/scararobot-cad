@@ -5,5 +5,5 @@
 # and add it to that commit
 #
 
-unzip -o 'SCARA Robot.FCStd' Document.xml -d info
+unzip -o 'SCARARobot.FCStd' Document.xml -d info
 git add info
